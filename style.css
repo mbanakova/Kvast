@@ -715,7 +715,12 @@ font-size: 20px;
 border: 1px solid #e5b66c;
 height: 121px;
 }
-    
+
+.order-form-group textarea:hover {
+background-color: #d9ad66;
+border: 1px solid #d9ad66;
+}
+
 .order-form-group select {
 margin-top: 12px;
 margin-bottom: 35px;
@@ -723,6 +728,11 @@ background-color: #e5b66c;
 border: 1px solid #e5b66c;
 height: 48px;
 } 
+
+.order-form-group select:hover {
+background-color: #d9ad66;
+border: 1px solid #d9ad66;
+}
 
 .order-form-group input[type="submit"] {
 float: left;
